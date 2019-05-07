@@ -44,6 +44,7 @@ var OnlineMarkdown = {
 
 OnlineMarkdown.init();
 ```
+
 ---
 
 上面是 `JavaScript`，下面是 `php`：
@@ -59,9 +60,9 @@ echo 'hello,world'
 | 苹果 | 1   | nice |
 | 橘子 | 2   | job |
 
-### 关于小胡子哥
+### 关于逆天
 
-![微信公众号](http://md.barretlee.com/imgs/qrcode.jpg)
+![微信公众号](http://github.lesschina.com/html5/images/wechat.jpg)
 
 ---
 
@@ -82,14 +83,14 @@ export PATH;
 
 ```bash
 # 如果没有安装 zsh，可能是 ~/.bash_profile
-source ~/.zshrc 
+source ~/.zshrc
 ```
 
 这个时候就可以在全局打开了：
 
 ```bash
 # -a 的意思是不要新开窗口，在当前已经打开的 vsc 中打开文件
-vsc path/to/file.ext -a 
+vsc path/to/file.ext -a
 ```
 
 有同学提到，VSC 的面板上搜索 `install` 就可以在命令行安装 `code` 这个命令了，不过我更喜欢使用 `vsc` 来打开文件，这也算是折腾吧 ；）

@@ -13105,8 +13105,8 @@ var IN_GLOBAL_SCOPE = false;
     skinUrls.push(LOADER_BASE_URL
       + '/skins/' + encodeURIComponent(skins[i]) + '.css');
   }
-  skinUrls.push(LOADER_BASE_URL + '/prettify.css');
-  loadStylesheetsFallingBack(skinUrls);
+  // skinUrls.push(LOADER_BASE_URL + '/prettify.css');
+  // loadStylesheetsFallingBack(skinUrls);
 
   var prettyPrint = (function () {
     /**
